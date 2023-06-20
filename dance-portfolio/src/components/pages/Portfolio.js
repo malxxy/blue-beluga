@@ -1,15 +1,13 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react'
 
-const edc = '/images/edc.png';
-
 function Portfolio() {
   return (
     <div className="eachContainer">
       <h1>Portfolio</h1>
       <div className='portfolioCards'>
         <Card>
-          <Image src={edc}
+          <Image
           wrapped ui={false} 
           href='http://youtube.com'
           target='_blank'
@@ -22,7 +20,7 @@ function Portfolio() {
           </Card.Content>
         </Card>
         <Card>
-          <Image src={edc} wrapped ui={false} />
+          <Image wrapped ui={false} />
           <Card.Content>
             <Card.Header>EDC Reel</Card.Header>
             <Card.Description>
@@ -31,7 +29,7 @@ function Portfolio() {
           </Card.Content>
         </Card>
         <Card>
-          <Image src={edc} wrapped ui={false} />
+          <Image wrapped ui={false} />
           <Card.Content>
             <Card.Header>Class Video</Card.Header>
             <Card.Description>
@@ -40,7 +38,7 @@ function Portfolio() {
           </Card.Content>
         </Card>
         <Card>
-          <Image src='/images/avatar/large/image.jpg' wrapped ui={false} />
+          <Image wrapped ui={false} />
           <Card.Content>
             <Card.Header>Performance Reel</Card.Header>
             <Card.Description>
@@ -51,31 +49,31 @@ function Portfolio() {
       </div>
       <h1>Gallery</h1>
       <Card>
-          <Image src={edc} wrapped ui={false} rounded/>
+          <Image wrapped ui={false} rounded/>
           <Card.Content>
             <Card.Header>Photo by Alex Brondo</Card.Header>
           </Card.Content>
         </Card>
       <Card>
-          <Image src={edc} wrapped ui={false} rounded/>
+          <Image wrapped ui={false} rounded/>
           <Card.Content>
             <Card.Header>Photo by Alex Brondo</Card.Header>
           </Card.Content>
         </Card>
         <Card>
-          <Image src={edc} wrapped ui={false} rounded/>
+          <Image wrapped ui={false} rounded/>
           <Card.Content>
             <Card.Header>Photo by Insomniac Events</Card.Header>
           </Card.Content>
         </Card>
         <Card>
-          <Image src={edc} wrapped ui={false} rounded/>
+          <Image wrapped ui={false} rounded/>
           <Card.Content>
             <Card.Header>Photo by Alex Brondo</Card.Header>
           </Card.Content>
         </Card>
         <Card>
-          <Image src={edc} wrapped ui={false} />
+          <Image wrapped ui={false} />
           <Card.Content>
             <Card.Header>Performance Reel</Card.Header>
           </Card.Content>

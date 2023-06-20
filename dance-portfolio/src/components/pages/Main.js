@@ -1,14 +1,12 @@
 import React from 'react';
-import { Card, Image } from 'semantic-ui-react'
-
-const sunnies = 'images/edc.png'
+import { Card, Image } from 'semantic-ui-react';
 
 function Main() {
   return (
     <div className="eachContainer">
       <h1>Dancer</h1>
       <Card>
-          <Image src={require(sunnies)} wrapped ui={false} />
+          <Image wrapped ui={false} />
         </Card>
       <div>
         <h3>About</h3>
