@@ -1,3 +1,8 @@
+.mainContainer {
+  border: solid 1px black;
+  border-radius: 1rem;
+  margin: 1rem;
+}
 
 /* Nav CSS */
 nav {
@@ -29,4 +34,20 @@ nav a {
 
 .nameTitle {
   font-size: 3rem;
+}
+
+footer {
+  background: black;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  color:white;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }

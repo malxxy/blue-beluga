@@ -5,6 +5,7 @@ import Main from './components/pages/Main';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -21,6 +22,7 @@ function App() {
         </Routes>
         <Main />
       </div>
+      <Footer />
     </div>
   );
 }
