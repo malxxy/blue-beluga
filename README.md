@@ -1,2 +1,2 @@
 # blue-beluga
-Application to compare followers vs. following on Instagram
+Personal Portfolio (dance) built with React and Node JS
