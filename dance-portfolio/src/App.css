@@ -1,1 +1,32 @@
-/* Establish main app css here */
+
+/* Nav CSS */
+nav {
+  background: black;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 1rem;
+  align-items: center;
+  border: black 1rem solid;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.navItem {
+  color: white;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.navUl {
+  display: flex;
+  gap: 1rem;
+}
+
+.nameTitle {
+  font-size: 3rem;
+}
