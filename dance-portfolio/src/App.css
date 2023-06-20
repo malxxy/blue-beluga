@@ -4,6 +4,10 @@
   margin: 1rem;
 }
 
+.mainContainer div {
+  margin: 1.5rem;
+}
+
 /* Nav CSS */
 nav {
   background: black;
@@ -50,4 +54,11 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+}
+
+.contactCards {
+  bottom-border: solid black 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
 }
