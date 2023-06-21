@@ -97,6 +97,7 @@ footer a {
   flex: flex-wrap;
   gap: 1rem;
   justify-content: left;
+  align-items: center;
 }
 
 .portfolioCards {

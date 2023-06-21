@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form } from 'semantic-ui-react'
+import { Button, Form, Icon } from 'semantic-ui-react'
 import { Card } from 'semantic-ui-react'
 
 function Contact() {
@@ -11,7 +11,7 @@ function Contact() {
           href='https://www.instagram.com/malia.yraguen/?hl=en'
           header='Instagram'
           target='_blank'
-          meta='Follow Malia on Instagram'
+          meta='DM Malia on Instagram'
           description='Performance videos, class videos, photoshoots, and more.'
         />
         <Card
@@ -22,9 +22,10 @@ function Contact() {
           description='Learn about her professional background in the technology industry.'
         />
       </div>
-      <div class="ui divider"></div>
+      <div className="ui divider"></div>
 
       <div>
+      <h1>Email</h1>
       <Form className='contactMalia'>
         <Form.Field>
           <label>Full Name</label>
@@ -37,6 +38,13 @@ function Contact() {
         <Form.TextArea label='Message' placeholder='Write your message here...' />
         <Button type='submit'>Submit</Button>
       </Form>
+      </div>
+
+      <div className="ui divider"></div>
+      <div className='eachContainer'>
+      <Icon name='instagram' size='huge'/>
+      <Icon name='mail' size='huge'/>
+      <Icon name='linkedin' size='huge'/>
       </div>
     </div>
   );

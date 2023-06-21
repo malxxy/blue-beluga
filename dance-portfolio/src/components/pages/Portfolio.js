@@ -56,7 +56,7 @@ function Portfolio() {
           </Card.Content>
         </Card>
       </div>
-      <div class="ui divider"></div>
+      <div className="ui divider"></div>
       <div>
       <h1>Gallery</h1>
       <div className='gallery'>
