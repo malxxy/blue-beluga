@@ -1,10 +1,21 @@
 import React from 'react';
+import { Card, Image } from 'semantic-ui-react';
+import resume from '../../images/Malia_Faith_GoGoTechnical_Resume.pdf';
 
 function Resume() {
   return (
-    <div className="eachContainer">
+    <div className='eachContainer'>
       <h1>Resume</h1>
-      <p className="resume-page">This is where the resume page will go</p>
+      <div>
+      <Card>
+          <Image
+          src={resume}
+          wrapped ui={false} 
+          href='http://youtube.com'
+          target='_blank'
+          />
+        </Card>
+      </div>
     </div>
   );
 }
