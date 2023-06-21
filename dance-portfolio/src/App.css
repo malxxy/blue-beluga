@@ -1,6 +1,8 @@
 :root {
-  --black: #151413;
+  --black: #141219;
   --white: #f1f5f4;
+  --main: #eaebed;
+  --trial: #a9afb5;
   --brownRust: #a75a3e;
   --green: #276558;
   --mintGreen: #749b8c;
@@ -9,17 +11,36 @@
 }
 
 body {
-  background: var(--white);
+  background: var(--trial);
 }
 
 .mainContainer {
   border: solid 1px var(--black);
   border-radius: 1rem;
   margin: 1rem;
+  background: var(--main);
+  min-height: 80vh;
 }
 
 .eachContainer {
   margin: 1.5rem;
+  background: var(--main);
+}
+
+.mainPage {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.aboutMalia {
+  width: auto;
+  max-Width: 50%;
+  margin-top: 1rem;
+}
+
+.aboutMalia p {
+  font-size: 1.5rem;
 }
 
 /* Nav CSS */
@@ -31,7 +52,7 @@ nav {
   padding: 0 20px;
   gap: 1rem;
   align-items: center;
-  border: black 1rem solid;
+  border: var(--black) 1rem solid;
 }
 
 nav a {
@@ -72,7 +93,6 @@ footer a {
 }
 
 .contactCards {
-  bottom-border: solid var(--black) 10px;
   display: flex;
   flex: flex-wrap;
   gap: 1rem;
@@ -83,5 +103,18 @@ footer a {
   display: flex;
   flex: flex-wrap;
   justify-content: space-between;
+  gap: 1rem;
+}
+
+img {
+  wight: auto;
+  height: auto;
+  max-width: 95%;
+  max-height:90vh;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
   gap: 1rem;
 }

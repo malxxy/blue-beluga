@@ -1,9 +1,14 @@
 import React from 'react';
-import { Card, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react';
+import headshot from '../../images/headshot.png';
+import edc from '../../images/edc.png';
+import body from '../../images/body.png';
+import pool from '../../images/pool.png';
+import sunnies from '../../images/sunnies.png';
 
 function Portfolio() {
   return (
-    <div className="eachContainer">
+    <div className='eachContainer'>
       <h1>Portfolio</h1>
       <div className='portfolioCards'>
         <Card>
@@ -20,7 +25,11 @@ function Portfolio() {
           </Card.Content>
         </Card>
         <Card>
-          <Image wrapped ui={false} />
+          <Image 
+          wrapped ui={false} 
+          href='http://youtube.com'
+          target='_blank'
+          />
           <Card.Content>
             <Card.Header>EDC Reel</Card.Header>
             <Card.Description>
@@ -31,53 +40,58 @@ function Portfolio() {
         <Card>
           <Image wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Class Video</Card.Header>
+            <Card.Header>Heels Class Video</Card.Header>
             <Card.Description>
-              Advanced heels class by Marissa Heart to the song "Adorn".
+              Advanced heels choreography by Marissa Heart at Playground LA.
             </Card.Description>
           </Card.Content>
         </Card>
         <Card>
           <Image wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Performance Reel</Card.Header>
+            <Card.Header>Heels Class Video</Card.Header>
             <Card.Description>
-              Malia Faith is a go-go dancer based in Southern California.
+              Advanced heels choreography by Janelle Murphy at Play Hard Heels.
             </Card.Description>
           </Card.Content>
         </Card>
       </div>
+      <div class="ui divider"></div>
+      <div>
       <h1>Gallery</h1>
+      <div className='gallery'>
       <Card>
-          <Image wrapped ui={false} rounded/>
+          <Image src={headshot} wrapped ui={false} rounded />
           <Card.Content>
-            <Card.Header>Photo by Alex Brondo</Card.Header>
+            <Card.Description>Photo by Insomniac Events</Card.Description>
           </Card.Content>
         </Card>
       <Card>
-          <Image wrapped ui={false} rounded/>
+          <Image src={edc} wrapped ui={false} rounded alt='Malia Faith performing at main stage EDCLV'/>
           <Card.Content>
-            <Card.Header>Photo by Alex Brondo</Card.Header>
+            <Card.Description>Photo by Alex Brondo</Card.Description>
           </Card.Content>
         </Card>
         <Card>
-          <Image wrapped ui={false} rounded/>
+          <Image src={body} wrapped ui={false} rounded/>
           <Card.Content>
-            <Card.Header>Photo by Insomniac Events</Card.Header>
+            <Card.Description>Photo by Alex Brondo </Card.Description>
           </Card.Content>
         </Card>
         <Card>
-          <Image wrapped ui={false} rounded/>
+          <Image src={sunnies} wrapped ui={false} rounded/>
           <Card.Content>
-            <Card.Header>Photo by Alex Brondo</Card.Header>
+            <Card.Description>Photo by Alex Brondo</Card.Description>
           </Card.Content>
         </Card>
         <Card>
-          <Image wrapped ui={false} />
+          <Image src={pool} wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Performance Reel</Card.Header>
+            <Card.Description>Performance Reel</Card.Description>
           </Card.Content>
         </Card>
+        </div>
+        </div>
     </div>
   );
 }
