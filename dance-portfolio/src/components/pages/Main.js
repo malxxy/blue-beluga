@@ -1,7 +1,11 @@
 import React from 'react';
 import gogo from '../../images/gogo.png';
+// import Fade from 'react-reveal/Fade';
 
 function Main() {
+  function hoverAbout(e) {
+    e.target.style.background = '#f1f5f4';
+  }
   return (
     <div className='eachContainer'>
       <h1>Go-Go Dancer</h1>
@@ -9,10 +13,13 @@ function Main() {
         <div className='mainImg'>
           <img
             src={gogo}
+            style={{'borderRadius':'1rem'}}
             alt='Malia Faith in go-go costume photographed by Alex Brondo.'/>
         </div>
 
-        <div className='aboutMalia'>
+        <div className='aboutMalia'
+        onMouseOver={hoverAbout}
+        >
           <h2 style={{borderBottom: '2px solid #4D4D4E', paddingBottom: '1rem'}}>About</h2>
           <p >Malia is go-go dancer and technically trained dancer based in San Diego, CA. 
             She is currently signed with Supernovas Entertainment, a go-go dancer agency often booked by Day Trip LA, 
