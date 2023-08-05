@@ -11,6 +11,30 @@ function Portfolio() {
     <div className='eachContainer'>
       <h1>Portfolio</h1>
       <div className='portfolioCards'>
+      <Card>
+          <Image wrapped ui={false} 
+          href='http://youtube.com'
+          target='_blank'/>
+          <Card.Content>
+            <Card.Header>Malia Faith Choreograophy</Card.Header>
+            <Card.Description>
+              Intermediate hip hop heels choreography by Malia Faith at Play Hard Heels.
+            </Card.Description>
+          </Card.Content>
+        </Card>
+        <Card>
+          <Image 
+          wrapped ui={false} 
+          href='http://youtube.com'
+          target='_blank'
+          />
+          <Card.Content>
+            <Card.Header>EDC Reel</Card.Header>
+            <Card.Description>
+              Malia Faith was 1/4 female dancers selected to perform on the main stage at EDC Las Vegas 2023. Malia performed alongside Tiesto, David Guetta, Loud Luxury, Slander, Alison Wonderland, Kaskade, Galantis, and many more critically acclaimed DJs.
+            </Card.Description>
+          </Card.Content>
+        </Card>
         <Card>
           <Image
           wrapped ui={false} 
@@ -25,36 +49,28 @@ function Portfolio() {
           </Card.Content>
         </Card>
         <Card>
-          <Image 
-          wrapped ui={false} 
+          <Image wrapped ui={false}
           href='http://youtube.com'
-          target='_blank'
-          />
+          target='_blank' />
           <Card.Content>
-            <Card.Header>EDC Reel</Card.Header>
+            <Card.Header>Heels Class with Marissa Heart</Card.Header>
             <Card.Description>
-              Malia Faith was one of four female dancers to select on the main stage at EDC Las Vegas 2023. Malia performed alongside Tiesto, David Guetta, Loud Luxury, Slander, Alison Wonderland, Kaskade, Galantis, and many more.
+              Advanced heels choreography by Marissa Heart at Playground LA. Malia was chosen to film in a select group chosen from 80+ dancers.
             </Card.Description>
           </Card.Content>
         </Card>
         <Card>
-          <Image wrapped ui={false} />
+          <Image wrapped ui={false} 
+          href='http://youtube.com'
+          target='_blank'/>
           <Card.Content>
-            <Card.Header>Heels Class Video</Card.Header>
-            <Card.Description>
-              Advanced heels choreography by Marissa Heart at Playground LA.
-            </Card.Description>
-          </Card.Content>
-        </Card>
-        <Card>
-          <Image wrapped ui={false} />
-          <Card.Content>
-            <Card.Header>Heels Class Video</Card.Header>
+            <Card.Header>Heels Class</Card.Header>
             <Card.Description>
               Advanced heels choreography by Janelle Murphy at Play Hard Heels.
             </Card.Description>
           </Card.Content>
         </Card>
+       
       </div>
       <div className="ui divider"></div>
       <div>

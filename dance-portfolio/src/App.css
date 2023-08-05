@@ -2,7 +2,8 @@
   --black: #141219;
   --white: #f1f5f4;
   --main: #eaebed;
-  --trial: #a9afb5;
+  --trial: #4D4D4E;
+  /* --trial: #a9afb5; */
   --brownRust: #a75a3e;
   --green: #276558;
   --mintGreen: #749b8c;
@@ -29,14 +30,15 @@ body {
 
 .mainPage {
   display: flex;
+  flex: flex-wrap;
   justify-content: space-between;
   gap: 1rem;
 }
 
 .aboutMalia {
   width: auto;
-  max-Width: 50%;
-  margin-top: 1rem;
+  max-Width: 55%;
+  padding: 1rem;
 }
 
 .aboutMalia p {

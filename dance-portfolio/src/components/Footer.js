@@ -7,9 +7,8 @@ function Footer() {
         <div className='footer'>
             <a href='https://github.com/malxxy' target='_blank'>Code by Malia Faith</a>
             <div>
-            <Icon name='instagram' size='small'/>
-            <Icon name='mail' size='small'/>
-            <Icon name='linkedin' size='small'/>
+              <a href='https://www.instagram.com/maliafaithh/?hl=en' target='_blank'><Icon name='instagram' size='small'/></a>
+              <a href='https://www.linkedin.com/in/malia-yraguen-a7778a175/' target='_blank'><Icon name='linkedin' size='small'/></a>
             </div>
         </div>
     </footer>
