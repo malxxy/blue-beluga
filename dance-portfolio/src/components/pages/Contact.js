@@ -8,7 +8,7 @@ function Contact() {
       <h1>Contact Malia</h1>
       <div className='contactCards'>
         <Card
-          href='https://www.instagram.com/malia.yraguen/?hl=en'
+          href='https://www.instagram.com/maliafaithh/?hl=en'
           header='Instagram'
           target='_blank'
           meta='DM Malia on Instagram'
